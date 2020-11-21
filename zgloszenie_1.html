@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8">
+		<title>Projekt - Helpdesk</title>
+		<link rel="stylesheet" href="sort.css">
+	</head>
+
+	<body>
+
+		<div class="header">
+		  <div class="search"
+			<form>
+			   <input type-"text" id="szukaj" class="search-box"> <imput type="submit" value-"Szukaj" id-"wyslij">
+		   </form>
+		 </div>
+		<div class="login">
+		  <img src="img/Group 1.png">
+		</div>
+		<div class="message">
+		  <img src="img/ic_notifications_active_24px.png">
+		</div>
+			<div class="menu">
+				<ul>
+					<li><a href="zgloszenia.html">Zgloszenia</a></li>
+					<li><a href="dzialy.html">Dzialy</a></li>
+					<li><a href="uzytkownicy.html">Uzytkownicy</a></li>
+					<li><a href="kategorie.html">Kategorie</a></li>
+					<li><a href="grupy.html">Grupy</a></li>
+					<li><a href="DodajZgloszenie.html">Dodaj zgloszenie</a></li>
+					
+				</ul>
+			</div>
+		</div>
+
+
+
+	<div class="container">
+		<div class="ticket-data"> 
+			<div>
+				<label for="Category"><b>Kategoria: </b></label>
+				<input type="text" name="Category" ReadOnly="ReadOnly" Value="Naprawa Sprzętu">
+			</div>
+			<div>			
+				<label for="Assignee"><b>Osoba Przypisana: </b></label>
+				<input type="text" name="Assignee" ReadOnly="ReadOnly" Value="Alek Jeden">
+			</div>
+			<div>
+				<label for="Reporter"><b>Osoba Zgłaszajaca: </b></label>
+				<input type="text" name="Reporter" ReadOnly="ReadOnly" Value="Testowy User1">
+			</div>
+			<div>
+				<label for="AssigneeGroup"><b>Przypisana grupa: </b></label>
+				<input type="text" name="AssigneeGroup" ReadOnly="ReadOnly" Value="Administatorzy">
+
+			</div>
+			<div>
+				<label for="ticket-Title"><b>Tytuł: </b></label>
+				<input type="text"  name="ticket-Title" ReadOnly="ReadOnly" Value="Naprawa Drukarki">
+			</div>
+			<div>
+				<label for="ticket-Title"><b>Opis: </b></label></br>
+				<textarea Width="700" > Proszę o naprawe drukarki</textarea>
+			</div>
+			<div>
+				<button type="button">Edytuj</button><button type="button">Podejmij</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
